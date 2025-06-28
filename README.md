@@ -27,10 +27,10 @@ HealthMate is a modern Django-based web application designed to help clinics and
 ![Patient List](screenshots/image1.png)
 
 ### ➕ Add Patient
-![Add Patient](screenshots/image2.png)
+![Add Patient](screenshots/image3.png)
 
 ### 📄 Patient Detail / Export Option
-![Detail & Export](screenshots/image3.png)
+![Detail & Export](screenshots/image2.png)
 
 
 ## 🛠️ Tech Stack
