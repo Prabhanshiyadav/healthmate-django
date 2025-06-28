@@ -19,6 +19,7 @@ HealthMate is a modern Django-based web application designed to help clinics and
 ## 🖥️ UI Screenshots
 
 ### 📋 Patient List View
+<<<<<<< HEAD
 ![Patient List](./screenshots/image1.png)
 
 ### ➕ Add Patient
@@ -35,11 +36,40 @@ HealthMate is a modern Django-based web application designed to help clinics and
 - **Backend**: Django 5.x
 - **Database**: SQLite3 (default)
 - **Libraries**: `openpyxl`, `reportlab`, `crispy-forms`, `django-toast`, etc.
+=======
+>>>>>>> e57c4b9 (Update README with screenshots section)
+
+---
+
+<<<<<<< HEAD
+## 🧩 How to Run Locally
+
+=======
+![Patient List](health_records/screenshots/image1.png)
+C:\Users\lenovo\OneDrive\Desktop\health_records\health_records\screenshots\image1.png
+
+### ➕ Add Patient
+![Add Patient](health_records/screenshots/image2.png)
+C:\Users\lenovo\OneDrive\Desktop\health_records\health_records\screenshots\image2.png
+
+### 📄 Patient Detail / Export Option
+![Detail & Export](health_records/screenshots/image3.png)
+C:\Users\lenovo\OneDrive\Desktop\health_records\health_records\screenshots\image3.png
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: HTML, CSS (custom styling), Bootstrap
+- **Backend**: Django 5.x
+- **Database**: SQLite3 (default)
+- **Libraries**: `openpyxl`, `reportlab`, `crispy-forms`, `django-toast`, etc.
 
 ---
 
 ## 🧩 How to Run Locally
 
+>>>>>>> e57c4b9 (Update README with screenshots section)
 1. **Clone the repository**
    ```bash
    git clone https://github.com/Prabhanshiyadav/healthmate-django.git
