@@ -1,59 +1,46 @@
-🏥 HealthMate – Patient Records Management System
-A simple and powerful Django web application to manage patient records for clinics and hospitals. This internal system helps staff efficiently add, update, view, delete, search, and export patient data.
+# 🏥 HealthMate – Patient Records Management System
 
-🔧 Features
-✅ Add new patient records
+HealthMate is a modern Django-based web application designed to help clinics and small hospitals manage their patient records efficiently. It supports adding, editing, deleting, searching, and exporting patient data – all within a beautiful and responsive UI.
 
-🧾 View full patient details
+---
 
-✏️ Edit patient information (name, age, contact, diagnosis, admission date)
+## 🚀 Features
 
-🗑️ Delete discharged patients
+| Feature                | Description                                                             |
+|------------------------|-------------------------------------------------------------------------|
+| 🔍 Search/Filter        | Search patients by name, age, or diagnosis.                            |
+| ✅ Toast Feedback       | See real-time success/failure messages using toast alerts.             |
+| 🧾 CRUD Operations      | Add, view, update, and delete patient records easily.                  |
+| 📤 Export               | Export patient records as Excel or PDF.                               |
+| 🎨 Responsive UI        | Stylish, clean, and mobile-friendly user interface.                   |
 
-🔍 Search/filter patients by name or diagnosis
+---
 
-📤 Export patient data to CSV (Excel)
+## 🖥️ UI Screenshots
 
-✅ Toast messages for success feedback
+### 📋 Patient List View
+![Patient List](./screenshots/image1.png)
 
-🎨 Beautiful, modern UI with Bootstrap & custom CSS
+### ➕ Add Patient
+![Add Patient](./screenshots/image2.png)
 
-📦 Tech Stack
-Backend: Django 5.2 (Class-Based Views)
+### 📄 Patient Detail / Export Option
+![Detail & Export](./screenshots/image3.png)
 
-Frontend: HTML, Bootstrap 5, CSS
+---
 
-Database: SQLite (default)
+## 🛠️ Tech Stack
 
-Export: CSV file generation
+- **Frontend**: HTML, CSS (custom styling), Bootstrap
+- **Backend**: Django 5.x
+- **Database**: SQLite3 (default)
+- **Libraries**: `openpyxl`, `reportlab`, `crispy-forms`, `django-toast`, etc.
 
+---
 
+## 🧩 How to Run Locally
 
-
-
-📂 Folder Structure
-cpp
-Copy
-Edit
-health_records/
-├── health_records/
-├── patients/
-│   ├── templates/
-│   ├── static/
-│   ├── migrations/
-├── db.sqlite3
-├── manage.py
-💡 Future Enhancements
-🧾 Export to PDF
-
-📊 Admin dashboard analytics
-
-🔐 Authentication & role-based access
-
-🌐 Online deployment (Render / PythonAnywhere)
-
-📄 License
-This project is for educational and personal use. Free to modify and extend.
-
-🙌 Author
-Made with ❤️ by Prabhanshi Yadav
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Prabhanshiyadav/healthmate-django.git
+   cd healthmate-django
